@@ -15,54 +15,54 @@ interface TechItem {
 }
 
 const techStackData: Record<string, TechItem[]> = {
-  "Backend": [
+  "AI/ML": [
     {
-      name: "Node.js",
-      icon: "devicon:nodejs",
+      name: "PyTorch",
+      icon: "logos:pytorch-icon",
       level: "Expert",
-      category: "Backend",
-      description: "JavaScript runtime for server-side applications",
+      category: "AI/ML",
+      description: "Deep learning framework for research and production",
       yearsUsed: 4
     },
     {
-      name: "Python",
-      icon: "devicon:python",
+      name: "TensorFlow",
+      icon: "logos:tensorflow",
       level: "Expert",
-      category: "Backend",
-      description: "Versatile language for backend and data science",
+      category: "AI/ML",
+      description: "End-to-end platform for machine learning",
+      yearsUsed: 4
+    },
+    {
+      name: "Scikit-learn",
+      icon: "simple-icons:scikitlearn",
+      level: "Expert",
+      category: "AI/ML",
+      description: "Machine learning library for Python",
       yearsUsed: 5
     },
     {
-      name: "Express",
-      icon: "skill-icons:expressjs-dark",
+      name: "HuggingFace",
+      icon: "noto-v1:hugging-face",
       level: "Expert",
-      category: "Backend",
-      description: "Fast, minimalist web framework for Node.js",
+      category: "AI/ML",
+      description: "Transformers and NLP model hub",
       yearsUsed: 3
     },
     {
-      name: "Django",
-      icon: "material-icon-theme:django",
-      level: "Intermediate",
-      category: "Backend",
-      description: "High-level Python web framework",
+      name: "LangChain",
+      icon: "simple-icons:langchain",
+      level: "Expert",
+      category: "AI/ML",
+      description: "Framework for LLM applications",
       yearsUsed: 2
     },
     {
-      name: "GraphQL",
-      icon: "logos:graphql",
+      name: "OpenCV",
+      icon: "logos:opencv",
       level: "Intermediate",
-      category: "Backend",
-      description: "Query language for APIs",
-      yearsUsed: 2
-    },
-    {
-      name: "Socket.io",
-      icon: "simple-icons:socketdotio",
-      level: "Intermediate",
-      category: "Backend",
-      description: "Real-time bidirectional event-based communication",
-      yearsUsed: 2
+      category: "AI/ML",
+      description: "Computer vision and image processing",
+      yearsUsed: 3
     },
   ],
   "Frontend": [
@@ -115,46 +115,46 @@ const techStackData: Record<string, TechItem[]> = {
       yearsUsed: 2
     },
   ],
-  "Database": [
+  "Data & MLOps": [
     {
-      name: "PostgreSQL",
-      icon: "logos:postgresql",
+      name: "Pandas",
+      icon: "simple-icons:pandas",
       level: "Expert",
-      category: "Database",
-      description: "Advanced open-source relational database",
-      yearsUsed: 3
+      category: "Data & MLOps",
+      description: "Data manipulation and analysis library",
+      yearsUsed: 5
     },
     {
-      name: "MongoDB",
-      icon: "devicon:mongodb",
+      name: "NumPy",
+      icon: "logos:numpy",
       level: "Expert",
-      category: "Database",
-      description: "NoSQL document database",
-      yearsUsed: 3
+      category: "Data & MLOps",
+      description: "Numerical computing with Python",
+      yearsUsed: 5
     },
     {
-      name: "MySQL",
-      icon: "logos:mysql",
-      level: "Intermediate",
-      category: "Database",
-      description: "Popular open-source relational database",
-      yearsUsed: 3
+      name: "Jupyter",
+      icon: "logos:jupyter",
+      level: "Expert",
+      category: "Data & MLOps",
+      description: "Interactive computing notebooks",
+      yearsUsed: 4
     },
     {
-      name: "Redis",
-      icon: "devicon:redis",
+      name: "MLflow",
+      icon: "simple-icons:mlflow",
       level: "Intermediate",
-      category: "Database",
-      description: "In-memory data structure store",
+      category: "Data & MLOps",
+      description: "ML lifecycle management platform",
       yearsUsed: 2
     },
     {
-      name: "Prisma",
-      icon: "skill-icons:prisma",
+      name: "Weights & Biases",
+      icon: "simple-icons:weightsandbiases",
       level: "Expert",
-      category: "Database",
-      description: "Next-generation ORM for Node.js and TypeScript",
-      yearsUsed: 2
+      category: "Data & MLOps",
+      description: "ML experiment tracking and visualization",
+      yearsUsed: 3
     },
   ],
   "Cloud & DevOps": [

@@ -7,72 +7,72 @@ import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
-    title: "Checkersvip.com",
-    subtitle: "Professional Online Checkers Platform",
-    description: "A comprehensive multiplayer American checkers platform designed for competitive play with real-time communication capabilities. Currently undergoing official recognition process with the American Checkers Federation (ACF).",
+    title: "AI Vision Analytics Platform",
+    subtitle: "Real-time Computer Vision System",
+    description: "Advanced computer vision platform leveraging deep learning for real-time object detection, tracking, and behavioral analysis. Processes 10K+ video streams daily with 95% accuracy using custom-trained YOLO and ResNet models.",
     features: [
-      "Real-time multiplayer gameplay with WebSocket technology",
-      "Advanced drag-and-drop game mechanics using DnDKit",
-      "Live chat system with emoji support and moderation",
-      "Player ranking and tournament management system",
-      "Spectator mode with real-time game observation",
-      "Mobile-responsive design for cross-platform play",
-      "Game replay and analysis tools",
-      "Social features including friend lists and challenges"
+      "Custom-trained YOLO v8 models for multi-object detection",
+      "Real-time video processing with CUDA acceleration",
+      "Behavioral pattern analysis using LSTM networks",
+      "Edge deployment capabilities with TensorRT optimization",
+      "REST API for seamless integration with existing systems",
+      "Interactive dashboard with real-time analytics visualization",
+      "Automated alert system for anomaly detection",
+      "Multi-camera synchronization and 3D scene reconstruction"
     ],
     deliverables: [
-      "Fully functional web application deployed on production",
-      "Real-time multiplayer game engine",
-      "User authentication and profile management",
-      "Admin dashboard for game moderation",
-      "Tournament management system",
-      "Mobile-optimized responsive interface",
-      "Integration with payment systems for premium features"
+      "Production-ready AI inference pipeline",
+      "Custom ML models with 95%+ accuracy",
+      "Scalable microservices architecture on Kubernetes",
+      "Real-time monitoring dashboard with React/D3.js",
+      "Comprehensive API documentation and SDKs",
+      "Edge deployment packages for on-premise installation",
+      "Performance optimization achieving <100ms latency"
     ],
-    tech: ["Next.js", "NextUI", "Tailwind CSS", "DnDKit", "Fastify", "Redis", "Socket.io", "PostgreSQL", "Prisma", "JWT Authentication", "Stripe API"],
+    tech: ["PyTorch", "TensorFlow", "YOLO v8", "OpenCV", "CUDA", "FastAPI", "React", "Docker", "Kubernetes", "Redis", "PostgreSQL", "WebRTC"],
     github: "https://github.com",
-    live: "https://checkersvip.com",
+    live: "https://vision-analytics.demo",
     gradient: "from-blue-500 to-cyan-500",
     status: "Live",
-    category: "Web Application",
+    category: "AI/ML Platform",
     highlight: "Featured",
     timeline: "6 months",
-    clientType: "Gaming Industry"
+    clientType: "Enterprise Security"
   },
   {
-    title: "AskRudy.ai",
-    subtitle: "AI-Powered Document Intelligence Platform",
-    description: "An advanced RAG-based AI chatbot that revolutionizes document interaction through multilingual translation and intelligent conversation capabilities. Features cutting-edge OpenAI multimodal technology for screenshot analysis and real-time text translation.",
+    title: "NeuralChat Pro",
+    subtitle: "Enterprise LLM Fine-tuning Platform",
+    description: "Comprehensive platform for fine-tuning and deploying custom Large Language Models. Enables enterprises to create domain-specific AI assistants with proprietary knowledge bases, achieving 40% better performance than base models.",
     features: [
-      "RAG (Retrieval-Augmented Generation) architecture for accurate responses",
-      "Multi-format document support (PDF, DOCX, TXT, images)",
-      "OpenAI GPT-4 Vision integration for screenshot analysis",
-      "Real-time multilingual translation (50+ languages)",
-      "Intelligent document chunking and vector embeddings",
-      "Conversational AI with context-aware responses",
-      "Document highlighting and annotation tools",
-      "Export capabilities for translations and summaries",
-      "Collaborative workspace for team document analysis"
+      "Custom LLM fine-tuning with LoRA and QLoRA techniques",
+      "Distributed training across multiple GPUs with DeepSpeed",
+      "RAG implementation with vector databases (Pinecone/Weaviate)",
+      "Automated prompt engineering and optimization",
+      "Model versioning and A/B testing framework",
+      "Real-time inference with <200ms response time",
+      "Multi-modal support for text, image, and code generation",
+      "Advanced guardrails for safe and compliant AI responses",
+      "Interactive fine-tuning interface with real-time feedback"
     ],
     deliverables: [
-      "Production-ready AI chatbot platform",
-      "Document processing pipeline with OCR capabilities",
-      "Multi-language translation engine",
-      "User dashboard with document management",
-      "Subscription management with Stripe integration",
-      "API documentation and integration guides",
-      "Mobile-responsive Progressive Web App",
-      "Analytics dashboard for usage tracking"
+      "Custom fine-tuned LLM models for specific domains",
+      "Scalable inference API with load balancing",
+      "Training pipeline with automated hyperparameter tuning",
+      "Comprehensive evaluation suite with custom metrics",
+      "React-based admin dashboard for model management",
+      "Integration with existing enterprise systems",
+      "Cost optimization achieving 60% reduction in inference costs",
+      "Complete MLOps pipeline with CI/CD integration"
     ],
-    tech: ["Next.js", "NextUI", "Vercel AI SDK", "React-PDF", "Firebase", "LangChain", "OpenAI GPT-4", "Pinecone", "Stripe", "Tesseract.js", "PDF.js", "Zustand"],
+    tech: ["Transformers", "LangChain", "HuggingFace", "PyTorch", "DeepSpeed", "FastAPI", "React", "TypeScript", "Pinecone", "Docker", "Weights & Biases", "ONNX"],
     github: "https://github.com",
-    live: "https://askrudy.ai",
+    live: "https://neuralchat-pro.demo",
     gradient: "from-purple-500 to-pink-500",
     status: "Live",
     category: "AI Platform",
     highlight: "Featured",
     timeline: "8 months",
-    clientType: "EdTech & Enterprise"
+    clientType: "Financial Services & Healthcare"
   }
 ];
 
